@@ -1,0 +1,16 @@
+# This is a binary file, not a Python script.
+# To generate the correct hello.fac file, run the following Python code once:
+
+# --- Save this as gen_hello_fac.py and run it with: python3 gen_hello_fac.py ---
+with open("hello.fac", "wb") as f:
+    f.write(bytes([
+        0xFA, 0xAC, 0xBE, 0xED,  # MAGIC
+        0x20,                    # OP_LOAD_STR
+        0x09,                    # length 9
+        ord('h'), ord('e'), ord('l'), ord('l'), ord('o'), ord(' '), ord('f'), ord('a'), ord('c'),
+        0x21,                    # OP_PRINT_STR
+        0xFF                     # OP_HALT
+    ]))
+# ------------------------------------------------------------------------------
+
+# After running, use the generated hello.fac file with your VM.

@@ -1,0 +1,6 @@
+ground object Test{
+    open void native main(){
+        System.read.native("/workspaces/Covione/CoviSys/NativeLib/libtest.so")
+        libtest.print_lyrics()
+    }
+}

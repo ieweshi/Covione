@@ -1,0 +1,8 @@
+ground object Covi{
+    open void main(){
+        System.out.printnl("el muchacho de los ojos tristes")
+        System.out.printnl("vive solo y necesita amor")
+        System.out.printnl("como el aire necesita verme")
+        System.out.printnl("como el sol lo necesito yo")
+    }
+}
