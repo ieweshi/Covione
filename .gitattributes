@@ -1,0 +1,5 @@
+*.covi linguist-language=Covi
+*.covi linguist-detectable=true
+*.covar linguist-language=Covi
+*.covil linguist-language=Covi
+*.fac linguist-language=Covi
